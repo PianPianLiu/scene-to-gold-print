@@ -1,0 +1,13 @@
+interface:
+  display_name: "实景金色版画"
+  short_description: "将实景或指定主体转成透明底金色版画，可选丰富刻线、疏朗留白或两版同出"
+  default_prompt: "Use $scene-to-gold-print to turn my scene photo or selected subject into transparent gold woodcut artwork. Offer the named style choices unless I already selected one; omit text that cannot be reproduced accurately."
+  icon_small: "./assets/icon.svg"
+  icon_large: "./assets/icon.svg"
+policy:
+  products:
+  - "chatgpt"
+  - "codex"
+  - "api"
+  - "atlas"
+  allow_implicit_invocation: true
